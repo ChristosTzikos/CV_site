@@ -10,7 +10,7 @@ import {FaChess} from "react-icons/fa"
 
 function Hobbies(){
     return(
-        <div className='flex flex-row gap-x-3 mt-2 mb-2 color-black'>
+        <div className='flex flex-row gap-x-3 mt-2 mb-2'>
             <GiGuitarHead size='40'/>
             <HiDesktopComputer size='40'/>
             <IoFootballOutline size='40'/>
