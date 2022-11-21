@@ -22,7 +22,7 @@ function Projects() {
                 <IoLogoPython className='mt-2 ml-1 absolute ' /> 
                     <img
                         className='h-22 w-52 ml-1 mr-1 mt-2 mb-2  '
-                        src={"src/assets/robot.png"}>
+                        src={'src/assets/robot.png'}>
                     </img>
 
                    
