@@ -7,17 +7,15 @@ import { SiAndroidstudio } from 'react-icons/si';
 
 
 
-function handleClick() {
 
-    window.location.href = 'https://www.youtube.com/';
-}
 
 function Projects() {
     return (
         <div className='mt-2 mb-2 justify-items-center place-items-center flex flex-row '>
-            <button
+            <a
 
-                onClick={handleClick}
+
+                href='https://github.com/ChristosTzikos/Robot_Project'
 
                 className=' rounded-lg bg-gradient-to-t from-slate-200 to-slate-500 flex-col flex '>
                 
@@ -37,15 +35,15 @@ function Projects() {
                 </div>
 
 
-            </button>
+            </a>
 
             <div className='h-1 w-5 bg-gray-600  ' />
 
 
 
-            <button
+            <a
 
-                onClick={handleClick}
+                href= 'https://github.com/ChristosTzikos/RealEstate_FrontEnd'
                 className='bg-gray-200 rounded-lg bg-gradient-to-t from-slate-200 to-slate-500 '>
                 <SiAndroidstudio className='absolute mt-2 ml-2'/>
                 <img
@@ -60,11 +58,13 @@ function Projects() {
                 </div>
 
 
-            </button>
+            </a>
 
             <div className='h-1 w-5 bg-gray-600 ' />
 
-            <button className='rounded-lg bg-gradient-to-t from-slate-200 to-slate-500'>
+            <a
+            href='https://github.com/ChristosTzikos/CV_site'
+            className='rounded-lg bg-gradient-to-t from-slate-200 to-slate-500'>
             <IoLogoReact className='absolute ml-2 mt-2'/>
                 <img
                     className='h-22 w-52 ml-2 mr-1 mt-2 mb-2  '
@@ -77,7 +77,7 @@ function Projects() {
                 </div>
 
 
-            </button>
+            </a>
         </div>
     )
 }

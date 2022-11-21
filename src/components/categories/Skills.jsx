@@ -7,16 +7,16 @@ function Skills(){
         <div className='rounded-md bg-gradient-to-b from-slate-500 to-slate-100 w-36 items-center justify-center'>
             
             <img 
-            className='  rounded-md '
+            className='rounded-b-none rounded-t-md'
             src='https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'/>
 
-<text>Team Player</text>
+<text>Team Spirit</text>
         </div>
 
         <div className='rounded-md bg-gradient-to-b from-slate-500 to-slate-100 w-36 items-center justify-center'>
             
             <img 
-            className='  rounded-md '
+            className='rounded-b-none rounded-t-md'
             src='https://images.pexels.com/photos/3756042/pexels-photo-3756042.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'/>
 
 <text>Motivated</text>
@@ -25,7 +25,7 @@ function Skills(){
         <div className='rounded-md bg-gradient-to-b from-slate-500 to-slate-100 w-36 items-center justify-center'>
             
             <img 
-            className='  rounded-md '
+            className=' rounded-b-none rounded-t-md'
             src='https://images.pexels.com/photos/6214934/pexels-photo-6214934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'/>
 
 <text>Excited to Learn</text>
