@@ -11,7 +11,7 @@ function App() {
   return (
     
       <div className='min-h-screen font-inter'>
-        <div className=' max-w-5xl w-11/12 mx-auto'>
+        <div className='mx-auto'>
           <Intro />
           <Body />
           <Contact />
