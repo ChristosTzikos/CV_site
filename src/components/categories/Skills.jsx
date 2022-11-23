@@ -3,8 +3,8 @@ import React from 'react'
 function Skills(){
 
     return(
-        <div className='mt-2 mb-2 flex flex-row space-x-2'>
-        <div className='rounded-md bg-gradient-to-b from-slate-500 to-slate-100 w-36 items-center justify-center'>
+        <div className='mt-2 mb-2  space-x-2 items-center justify-center flex flex-row ml-36'>
+        <div className='rounded-md bg-gradient-to-b from-slate-500 to-slate-100 w-36 '>
             
             <img 
             className='rounded-b-none rounded-t-md'
@@ -13,7 +13,7 @@ function Skills(){
 <text>Team Spirit</text>
         </div>
 
-        <div className='rounded-md bg-gradient-to-b from-slate-500 to-slate-100 w-36 items-center justify-center'>
+        <div className='rounded-md bg-gradient-to-b from-slate-500 to-slate-100 w-36 '>
             
             <img 
             className='rounded-b-none rounded-t-md'
@@ -22,7 +22,7 @@ function Skills(){
 <text>Motivated</text>
         </div>
 
-        <div className='rounded-md bg-gradient-to-b from-slate-500 to-slate-100 w-36 items-center justify-center'>
+        <div className='rounded-md bg-gradient-to-b from-slate-500 to-slate-100 w-36 '>
             
             <img 
             className=' rounded-b-none rounded-t-md'
