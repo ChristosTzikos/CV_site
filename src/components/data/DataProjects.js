@@ -5,7 +5,7 @@ export default [
         title: 'Simple Robot Project',
         desc:'International Hellenic University',
         time:'10/2021-1/2022',
-        imgUrl: 'src/assets/robot.png',
+        imgUrl: '/assets/robot.png',
         link: 'https://github.com/ChristosTzikos/Robot_Project',
         language: 'Vanilla Python'
     },
@@ -13,7 +13,7 @@ export default [
         title: 'Homeazy Android App(Frontend)',
         desc:'SKG Code',
         time:'10/2022-11/2022',
-        imgUrl: 'src/assets/homezy.png',
+        imgUrl: '/assets/homezy.png',
         link: 'https://github.com/ChristosTzikos/RealEstate_FrontEnd',
         language:'Android Studio(Kotlin,Xml,retrofit)'
     },
@@ -21,7 +21,7 @@ export default [
         title: 'CV Website',
         desc:'React Js Project',
         time:'11/2022',
-        imgUrl: 'src/assets/christos.png',
+        imgUrl: '/assets/christos.png',
         link: 'https://github.com/ChristosTzikos/CV_site',
         language:'React Js, Tailwind'
     },
@@ -29,7 +29,7 @@ export default [
         title:'Tasks & Notes App',
         desc:'React Native Project',
         time:'7/2022-today',
-        imgUrl:'src/assets/notes.png',
+        imgUrl:'/assets/notes.png',
         link:'',
         language:'React Native, Tailwind'
     }
