@@ -22,11 +22,11 @@ function Projects() {
 
                 className=' rounded-lg bg-gradient-to-t from-slate-200 to-slate-600 flex-col flex hover:shadow-2xl '>
 
-                <text className='absolute text-xs mt-2 ml-2'>{project.language} </text>
+                
                 <img
                     className='w-full mt-2 mb-2 md:h-32 object-cover cursor-pointer rounded-xl '
                     src={project.imgUrl}
-                    alt="portfolio" 
+                    alt={project.language} 
             
                     
                     >
