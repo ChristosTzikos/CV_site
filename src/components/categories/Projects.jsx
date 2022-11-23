@@ -25,7 +25,7 @@ function Projects() {
                 <text className='absolute text-xs mt-2 ml-2'>{project.language} </text>
                 <img
                     className='h-22 w-52 ml-1 mr-1 mt-2 mb-2  '
-                    src={project.imgUrl}>
+                    src={require(project.imgUrl)}>
                 </img>
 
 
