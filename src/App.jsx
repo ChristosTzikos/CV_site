@@ -8,17 +8,18 @@ import './tailwind.css'
 
 function App() {
 
-
   return (
-    <div className='min-h-screen font-inter'>
-      <div className=' max-w-5xl w-11/12 mx-auto'>
-        <Intro />
-        <Body />
-        <Contact />
-        <Bottom />
+    
+      <div className='min-h-screen font-inter'>
+        <div className=' max-w-5xl w-11/12 mx-auto'>
+          <Intro />
+          <Body />
+          <Contact />
+          <Bottom />
 
+        </div>
       </div>
-    </div>
+    
   )
 }
 
