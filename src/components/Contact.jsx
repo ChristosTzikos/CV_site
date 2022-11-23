@@ -4,31 +4,34 @@ import { IoLogoGithub, IoLogoGoogle, IoLogoLinkedin } from 'react-icons/io5';
 function Contact() {
     return (
         <div className='flex items-center justify-center flex-col'>
-        <text className='text-xl font-semibold underline-offset-1 underline text-center '> Contact Me </text>
+            <text className='text-xl font-semibold underline-offset-1 underline text-center '> Contact Me </text>
             <div className='mt-5 flex flex-row gap-x-4'>
                 <a
-                href='https://github.com/ChristosTzikos'>
-                <IoLogoGithub
-                    
-                    size={50}
-                    className='bg-gradient-to-t from-slate-500 to-slate-200 rounded-full' />
-                    </a>
-                <a
-                href='https://www.linkedin.com/in/christos-tzikos-07ab08257/'
-                >
-                <IoLogoLinkedin
-                    size={50}
-                    className='bg-gradient-to-t from-slate-500 to-slate-200 rounded-full'
+                    className='hover:shadow-2xl'
+                    href='https://github.com/ChristosTzikos'>
+                    <IoLogoGithub
 
-                />
+                        size={50}
+                        className='bg-gradient-to-t from-slate-500 to-slate-200 rounded-full' />
+                </a>
+                <a
+                    className='hover:shadow-2xl'
+                    href='https://www.linkedin.com/in/christos-tzikos-07ab08257/'
+                >
+                    <IoLogoLinkedin
+                        size={50}
+                        className='bg-gradient-to-t from-slate-500 to-slate-200 rounded-full'
+
+                    />
                 </a>
 
             </div>
             <form
+                action='https://getform.io/f/e508aeaf-ddd7-4804-9f2f-2532ca1acedc'
                 method='POST'
                 className='mt-5 flex flex-col w-full md:w-3/12'
             >
-                
+
                 <input
                     name='name'
                     type="text"
@@ -46,12 +49,12 @@ function Contact() {
                 />
                 <button
 
-                    type='button'
+                    type='submit'
                     className='text-center text-white
                  mt-1 shadow-yellow-100 shadow-md
                 rounded-lg w-32
                 bg-gradient-to-r from-yellow-200 to-orange-500 
-            
+                hover:shadow-2xl
                 '
                 >
                     GET IN TOUCH

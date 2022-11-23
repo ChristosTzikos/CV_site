@@ -12,7 +12,7 @@ import DataProjects from '../data/DataProjects';
 
 function Projects() {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4' >
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ' >
         {DataProjects.map(project => (
 
             <a
@@ -20,21 +20,25 @@ function Projects() {
 
                 href={project.link}
 
-                className=' rounded-lg bg-gradient-to-t from-slate-200 to-slate-500 flex-col flex '>
+                className=' rounded-lg bg-gradient-to-t from-slate-200 to-slate-600 flex-col flex hover:shadow-2xl '>
 
                 <text className='absolute text-xs mt-2 ml-2'>{project.language} </text>
                 <img
-                    className='h-22 w-52 ml-1 mr-1 mt-2 mb-2  '
-                    src={require(project.imgUrl)}>
+                    className='w-full mt-2 mb-2 md:h-32 object-cover cursor-pointer rounded-xl '
+                    src={project.imgUrl}
+                    alt="portfolio" 
+            
+                    
+                    >
                 </img>
 
 
 
 
-                <div className='flex flex-col ml-2'>
-                    <text className='text-sm'> {project.title} </text>
-                    <text className='text-sm'>{project.desc}</text>
-                    <text className='text-sm'>{project.time}</text>
+                <div className='flex flex-col ml-2 '>
+                    <h3 className='text-lg' > {project.title} </h3>
+                    <text >{project.desc}</text>
+                    <text >{project.time}</text>
                 </div>
 
 

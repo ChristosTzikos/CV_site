@@ -10,7 +10,7 @@ function Education() {
 
                     <a
                         href={course.link}
-                        className='bg-gradient-to-b from-slate-200 to-slate-500 rounded-lg flex flex-row w-56'>
+                        className='bg-gradient-to-b from-slate-200 to-slate-500 rounded-lg flex flex-row w-56 hover:shadow-2xl'>
                         <img
                             className='h-16 w-16 ml-2 mt-2 mb-2 rounded-lg '
                             src={course.imgUrl}>
