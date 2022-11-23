@@ -4,8 +4,7 @@ import React from 'react'
 function Intro() {
     
     return(
-        <div 
-        
+        <div  
         className=' top-0 w-full  flex flex-col items-center justify-center    shadow-xl shadow-slate-400 bg-gradient-to-bl from-blue-100 to-slate-500'>
             <h1 className='text-3xl mt-3 md:text-5xl font-bold'>Christos Tzikos</h1>
             <p className='text-xl md:text-xl mb-1 font-bold'>Junior Software Engineer</p>
