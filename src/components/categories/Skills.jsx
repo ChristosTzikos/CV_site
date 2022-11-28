@@ -3,7 +3,7 @@ import React from 'react'
 function Skills(){
 
     return(
-        <div className=' space-y-2 items-center justify-center flex flex-col w-7/12'>
+        <div className=' space-y-2 items-center justify-center flex flex-col w-7/12 max-w-xl'>
 
         
         
