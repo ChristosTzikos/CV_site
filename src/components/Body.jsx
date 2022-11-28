@@ -50,7 +50,7 @@ function Body() {
             
                 <div className='flex flex-row gap-x-1'>
                     <IoCodeSlashOutline className='mt-1' />
-                    <text className=''>Programming & Mockup Languages</text>
+                    <text className=''>Programming & Markup Languages</text>
                 </div>
                 <Languages />
 
