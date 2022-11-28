@@ -12,7 +12,7 @@ function App() {
 
     <div className='min-h-screen font-inter'>
       <Intro />
-      <div className='mx-auto max-w-5xl w-10/12 '>
+      <div className='mx-auto max-w-5xl w-11/12 '>
 
         <Body />
         <Contact />
