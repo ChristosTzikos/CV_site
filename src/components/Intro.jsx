@@ -10,7 +10,7 @@ function Intro() {
             <h2 className='text-xl md:text-lg mb-1 font-bold'>Junior Software Developer</h2>
             <p className='text-lg max-w-xl font-semibold mb-2 '>I am an Automation Engineering student from Greece and I want to become a full-stack developer.
 I am currently looking for my first job/internship as a software
-engineer. My goal is to hone my coding skills and work with other
+engineer. My goal is to hone my coding skills and work with other 
 people on inspiring projects.</p>
         </div>
 
