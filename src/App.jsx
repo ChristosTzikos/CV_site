@@ -10,16 +10,16 @@ function App() {
 
   return (
 
-    <div className='min-h-screen font-inter'>
+    <div className='min-h-screen font-inter w-full mx-auto '>
 
-      <div className='max-w-5xl w-11/12 mx-auto  '>
-        <Intro />
-        <Body />
-        <Contact />
-        <Bottom />
 
-      </div>
+      <Intro />
+      <Body />
+      <Contact />
+      <Bottom />
+
     </div>
+
 
   )
 }

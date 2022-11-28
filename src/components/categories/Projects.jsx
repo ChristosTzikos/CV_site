@@ -12,7 +12,7 @@ import DataProjects from '../data/DataProjects';
 
 function Projects() {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4' >
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-10/12 max-w-4xl ' >
         {DataProjects.map(project => (
 
             <a
