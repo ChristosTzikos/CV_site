@@ -30,9 +30,9 @@ function Body() {
     return (
 
         
-            <div className='mt-5 justify-center items-center flex flex-col'>
+            <div className='mt-5 justify-center items-center flex flex-col '>
                 
-                <div className='flex flex-row justify-center items-center gap-x-1 '>
+                <div className='flex flex-row justify-center items-center gap-x-1'>
                     <IoBookOutline className='mt-0.5' />
                     <text className=''>Education & Certificates</text>
                 </div>
@@ -41,14 +41,14 @@ function Body() {
                 
                 
                 
-                <div className='flex flex-row gap-x-1'>
+                <div className='flex flex-row gap-x-1 '>
                     <IoLaptopOutline className='mt-0.5 ' />
                     <text className=''>Projects</text>
                 </div>
                 <Projects/>
 
             
-                <div className='flex flex-row gap-x-1'>
+                <div className='flex flex-row gap-x-1 '>
                     <IoCodeSlashOutline className='mt-1' />
                     <text className=''>Programming & Markup Languages</text>
                 </div>
