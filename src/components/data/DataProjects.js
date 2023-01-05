@@ -32,6 +32,7 @@ export default [
         imgUrl:'/assets/notes.png',
         link:'',
         language:'React Native, Tailwind'
-    }
+    },
+    
 
 ]

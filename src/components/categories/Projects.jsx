@@ -24,7 +24,7 @@ function Projects() {
 
                 
                 <img
-                    className='w-full mt-2 mb-2 md:h-32 object-cover cursor-pointer rounded-xl '
+                    className=' mt-2 w-full mb-2 md:h-32 object-cover cursor-pointer rounded-xl  '
                     src={project.imgUrl}
                     alt={project.language} 
             
